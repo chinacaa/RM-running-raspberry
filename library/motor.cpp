@@ -8,13 +8,14 @@
 #include<softPwm.h>
 #include<stdio.h>
 /*************************************/
-void Setup()
+int motorSetup()
 {
 	wiringPiSetup();
 	pinMode(lfIN1, OUTPUT);
 	pinMode(lfIN2, OUTPUT);
 	pinMode(riIN1, OUTPUT);
 	pinMode(riIN2, OUTPUT);
+	return 0;
 }
 /*Stop********************************/
 void Stop()

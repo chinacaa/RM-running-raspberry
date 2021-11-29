@@ -9,9 +9,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{B548
 		library\motor.h = library\motor.h
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "goline", "goline", "{4EF44167-0E06-4283-AF33-0245C5C61140}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "goline", "goline\goline.vcxproj", "{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM.Build.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x64.ActiveCfg = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x64.Build.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x64.Deploy.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x86.ActiveCfg = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x86.Build.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Debug|x86.Deploy.0 = Debug|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM.ActiveCfg = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM.Build.0 = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM.Deploy.0 = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM64.Build.0 = Release|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|ARM64.Deploy.0 = Release|ARM64
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x64.ActiveCfg = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x64.Build.0 = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x64.Deploy.0 = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x86.ActiveCfg = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x86.Build.0 = Release|ARM
+		{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}.Release|x86.Deploy.0 = Release|ARM
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

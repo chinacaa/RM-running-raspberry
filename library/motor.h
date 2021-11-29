@@ -16,7 +16,8 @@
 #define riIN2 8
 #define riENA 9
 /*************************************/
-void Stop();//Stop move with no return.
+int motorSetup();
+void motorStop();//Stop move with no return.
 int movFor(int lfSpd, int riSpd, unsigned int t);//(Speed of left machinery (0-255), Speed of right machinery (0-255), Time(int) ),return 0 if success.
 int movBac(int lfSpd, int riSpd, unsigned int t);//(Speed of left machinery (0-255), Speed of right machinery (0-255), Time(int) ),return 0 if success.
 int movTur(int direction, int Spd, unsigned int t);//(Turning direction (lf or ri), Speeed of turning (0-255), Time(int) ), return 0 if success or 1 if fail.
