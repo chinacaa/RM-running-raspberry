@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{B54839E9-32F2-436D-B239-9CB2C2BCA42D}"
+	ProjectSection(SolutionItems) = preProject
+		library\motor.cpp = library\motor.cpp
+		library\motor.h = library\motor.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "goline", "goline", "{4EF44167-0E06-4283-AF33-0245C5C61140}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D002DD34-BE71-49BF-B5CC-900F1D9D170F}
+	EndGlobalSection
+EndGlobal
