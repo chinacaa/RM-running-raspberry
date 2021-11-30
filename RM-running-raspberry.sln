@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{B548
 	ProjectSection(SolutionItems) = preProject
 		library\motor.cpp = library\motor.cpp
 		library\motor.h = library\motor.h
+		library\Tracking.c = library\Tracking.c
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "goline", "goline\goline.vcxproj", "{9C89E7E0-F099-4DFF-B495-D7142DA2A61B}"
