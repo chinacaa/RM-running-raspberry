@@ -18,6 +18,13 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0to1.cpp" />
+    <ClCompile Include="1to2.cpp" />
+    <ClCompile Include="2to3.cpp" />
+    <ClCompile Include="3to4.cpp" />
+    <ClCompile Include="4to5.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9c89e7e0-f099-4dff-b495-d7142da2a61b}</ProjectGuid>
     <Keyword>Linux</Keyword>
